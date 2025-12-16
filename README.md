@@ -1,6 +1,12 @@
 # Leerjaar2-PROG-P1
 
-## les 1 
+## les 1 Herhaling Functions, Classes en Arrays
+
+### Opdracht 1A BallSpawner
+![Opdr1A Ball](https://github.com/user-attachments/assets/6d6f9737-d4a9-4c36-8e5d-dc258343f37f)
+
+in Deze gifje kun je zien dat er kleurrijke ballen in de scène spawnen op willekeurige posities. Bij het starten van het spel verschijnen er meteen 100 ballen, en daarna verschijnt er elke seconde een nieuwe bal. Elke bal verdwijnt automatisch na 3 seconden.
+
 
 ## les 2 Action events 
 
