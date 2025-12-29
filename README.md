@@ -7,6 +7,7 @@
 
 in Deze gifje kun je zien dat er kleurrijke ballen in de scène spawnen op willekeurige posities. Bij het starten van het spel verschijnen er meteen 100 ballen, en daarna verschijnt er elke seconde een nieuwe bal. Elke bal verdwijnt automatisch na 3 seconden.
 
+[Klik hier voor de scripts](https://github.com/ilias195/Leerjaar2-PROG-P1/tree/main/Assets/Scripts/Les01Functions%2C%20Classes%20en%20Arrays)
 
 ## les 2 Action events 
 
