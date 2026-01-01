@@ -15,11 +15,13 @@ in Deze gifje kun je zien dat er kleurrijke ballen in de scène spawnen op wille
 
 
 ### Opdracht 1C EnemiesSpawner
-
-in deze gifje kun je zien dat de enemies worden ingespawnt na 3 seconden. Daarnaast kan je met key (W) 100 enmies laten in spawnen in de game. Ook kan je wanneer je alles weg wilt halen dat word de Destroy aangeroepen en dat kan je met de key (Q) doen.
 ![Opdr 1C](https://github.com/user-attachments/assets/5b7f3590-5b17-440a-acb6-550748d682a3)
 
+in deze gifje kun je zien dat de enemies worden ingespawnt na 3 seconden. Daarnaast kan je met key (W) 100 enmies laten in spawnen in de game. Ook kan je wanneer je alles weg wilt halen dat word de Destroy aangeroepen en dat kan je met de key (Q) doen.
+
 [klik hier voor de scripts](https://github.com/ilias195/Leerjaar2-PROG-P1/tree/main/Assets/Scripts/Les01Functions%2C%20Classes%20en%20Arrays)
+
+
 ## les 2 Action events 
 
 ### PlayerMovement
