@@ -23,6 +23,7 @@ in deze gifje kun je zien dat de enemies worden ingespawnt na 3 seconden. Daarna
 
 
 ## les 2 Action events 
+![les2ActionEvents(10Mb)](https://github.com/user-attachments/assets/7695a7da-0301-43ef-b68b-fdb45c8da477)
 
 ### PlayerMovement
 in deze gifje kan je zien dat ik een playerMovement heb gemaakt wat je kan besturen
