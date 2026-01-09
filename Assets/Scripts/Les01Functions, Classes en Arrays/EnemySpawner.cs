@@ -39,7 +39,6 @@ public class EnemySpawner : MonoBehaviour
             _timer = 0f;
         }
 
-        // Destroy all enemies met Q
         if (Input.GetKeyDown(KeyCode.Q))
         {
             for (int i = 0; i < enmies.Count; i++)
