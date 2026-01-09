@@ -10,8 +10,14 @@ in Deze gifje kun je zien dat er kleurrijke ballen in de scène spawnen op wille
 [Klik hier voor de scripts](https://github.com/ilias195/Leerjaar2-PROG-P1/tree/main/Assets/Scripts/Les01Functions%2C%20Classes%20en%20Arrays)
 
 ### Opdracht 1B TowerSpawner
+![Les1-B TowerSpawner](https://github.com/user-attachments/assets/550d3b22-47f2-44af-bac7-b1f16815e88e)
 
-....
+In deze opdracht kan je met de Linker Mousbutton Towers laten Spawnen op verschillende posities en verschillende grotes.
+
+### Hoe heb ik het aangepakt?
+ik heb een Script aangemaakt genaamd TowerSpawner. Vervolgens heb ik van de Tower een prefab gemaakt en in mijn Script een leeg Gameobject.
+Hierdoor kan ik mijn Prefab slepen in het leeg Gamobject in Unity, zodat de Towers Random in Spawnen in mijn game en niet al in mijn Hierachry zitten. Daarnaast heb
+ik gezegd in mijn code maak een kopie van die prefab zet het in mijn Scene. Ten slot heb ik een positie en een Scale meegeven die Random moet zijn met 0 Rotatie.
 
 
 ### Opdracht 1C EnemiesSpawner
