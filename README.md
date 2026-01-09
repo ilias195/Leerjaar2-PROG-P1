@@ -19,6 +19,7 @@ ik heb een Script aangemaakt genaamd TowerSpawner. Vervolgens heb ik van de Towe
 Hierdoor kan ik mijn Prefab slepen in het leeg Gamobject in Unity, zodat de Towers Random in Spawnen in mijn game en niet al in mijn Hierachry zitten. Daarnaast heb
 ik gezegd in mijn code maak een kopie van die prefab zet het in mijn Scene. Ten slot heb ik een positie en een Scale meegeven die Random moet zijn met 0 Rotatie.
 
+[Bekijk hier mijn Script voor de TowerSpawner](https://github.com/ilias195/Leerjaar2-PROG-P1/tree/main/Assets/Scripts/Les01Functions%2C%20Classes%20en%20Arrays/OpdrB-TowerSpawner)
 
 ### Opdracht 1C EnemiesSpawner
 ![Opdr 1C](https://github.com/user-attachments/assets/5b7f3590-5b17-440a-acb6-550748d682a3)
