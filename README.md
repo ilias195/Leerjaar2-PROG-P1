@@ -44,4 +44,6 @@ speler kan opakken en bij het oppakken word er score bij opgeteld en word het Ob
 Ten slot heb ik een Scoreboard gemaakt waar de score word opgeteld van de Objecten die opgepakt zijn. 
 en die Score word bijgehouden in de UI TextMesh pro.
 
+[bekijk hier mijn Scripts](https://github.com/ilias195/Leerjaar2-PROG-P1/tree/main/Assets/Scripts/les2ActionEvents)
+
 
