@@ -46,7 +46,26 @@ en die Score word bijgehouden in de UI TextMesh pro.
 
 [bekijk hier mijn Scripts](https://github.com/ilias195/Leerjaar2-PROG-P1/tree/main/Assets/Scripts/les2ActionEvents)
 
-## 
+## les 3 Debuggen
+
+### opdracht 3A  Wat veroorzaakt de bugs?
+ <img width="1913" height="1066" alt="03_05_find_bugs" src="https://github.com/user-attachments/assets/18205b3b-b3fc-4d8e-8936-bb5bf2d00b49" />
+
+### De Enemy schiet nooit!
+<img width="537" height="410" alt="ss1" src="https://github.com/user-attachments/assets/f729fb0b-0059-4df3-b5aa-26faf054ad0a" />
+
+**Oorzaak:** if (delta.magnitude < shotRange && !inCooldown)
+**Gevolg:** shotRange = 0
+**Reden:** delta.magnitude < 0 is altijd false. Hierdoor wordt de if-statement nooit uitgevoerd en
+CallShot() wordt nooit aangeroepen, dus de Enemy schiet nooit.
+
+### Het schot raakt de speler niet
+<img width="498" height="418" alt="ss2" src="https://github.com/user-attachments/assets/231d3dfa-3ee6-4954-a0e1-709456d00865" />
+
+**Oorzaak:** De verkeerde targetTag wordt gebruikt
+**Gevolg:** De kogel bestaat, maar weet niet wie hij mag raken.
+**Reden:** targetTag = "Player" maar het script zelf verwacht "Enemy" of checkt verkeerd. Hierdoor zoekt Het schot een verkeerde tag.
+Daardoor werkt de Tag/Collison niet, dus De speler krijgt geen damage.
 
 
 ## les 4 Single Responsibility (SRP) en Don't Repeat Yourself (DRY)
