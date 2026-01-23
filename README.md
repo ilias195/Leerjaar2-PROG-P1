@@ -46,4 +46,23 @@ en die Score word bijgehouden in de UI TextMesh pro.
 
 [bekijk hier mijn Scripts](https://github.com/ilias195/Leerjaar2-PROG-P1/tree/main/Assets/Scripts/les2ActionEvents)
 
+## 
+
+
+## les 4 Single Responsibility (SRP) en Don't Repeat Yourself (DRY)
+
+### Opdracht 1A SRP
+![les4-Dry-SRP-4a](https://github.com/user-attachments/assets/5aea65f4-98e3-4c88-9916-134286cdf9fc)
+
+In deze opdracht hebben we het originele script "**ShipBehaviour**" opgesplitst op  het Single Responsibility Principle (SRP) manier. 
+Elk onderdeel van het schip heeft nu een eigen script met één duidelijke taak, zoals bewegen, schieten, inventory en UI.
+
+### Hoe heb ik het aangepakt ?
+
+We hebben eerst bepaald welke taken in ShipBehaviour zaten en deze verdeeld over meerdere scripts 
+(ShipMovement, ShipShooting, ShipInventory, ShipUI).
+Vervolgens heb ik de scripts met elkaar laten communiceren via publieke methodes, zodat de schip nog hetzelfde blijft werken
+maar de code overzichtelijker en beter uitbreidbaar is.
+
+[Bekijk hier mijn Scripts hoe ik het heb gedaan](https://github.com/ilias195/Space48-p1OPDR4-/tree/main/Assets/Scripts)
 
