@@ -51,7 +51,7 @@ en die Score word bijgehouden in de UI TextMesh pro.
 
 ## les 4 Single Responsibility (SRP) en Don't Repeat Yourself (DRY)
 
-### Opdracht 1A SRP
+### Opdracht 4A SRP
 ![les4-Dry-SRP-4a](https://github.com/user-attachments/assets/5aea65f4-98e3-4c88-9916-134286cdf9fc)
 
 In deze opdracht hebben we het originele script "**ShipBehaviour**" opgesplitst op  het Single Responsibility Principle (SRP) manier. 
@@ -66,3 +66,15 @@ maar de code overzichtelijker en beter uitbreidbaar is.
 
 [Bekijk hier mijn Scripts hoe ik het heb gedaan](https://github.com/ilias195/Space48-p1OPDR4-/tree/main/Assets/Scripts)
 
+### Opdracht 4B DRY
+![les4-Dry-SRP-4b](https://github.com/user-attachments/assets/f4c24e72-c814-483b-8ef4-8ce0887e117e)
+
+in deze opdracht hebben we dubbele code verwijderd door twee ongeveer gelijke codes van het schip en de laser samen te voegen in één gedeeld script (**Movement.cs**). 
+Dit script wordt nu door de schip en de laser gebruikt.
+
+### Hoe heb ik het aangepakt ?
+We hebben de overeenkomende code opgezocht en verplaatst naar één herbruikbaar script. 
+Met een boolean wordt bepaald of het object door **spelerinput** wordt bestuurd of automatisch beweegt,
+zodat het uitvoering hetzelfde blijft zonder code twee keer te schrijven.
+
+[Bekijk hier mijn Scripts hoe ik het heb gedaan](https://github.com/ilias195/Space48-p1OPDR4-/tree/main/Assets/Scripts)
